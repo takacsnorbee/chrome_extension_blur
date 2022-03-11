@@ -1,0 +1,12 @@
+{
+    "name": "Blur all img",
+    "version": "1.0.0",
+    "description": "Blur all img on website",
+    "manifest_version": 3,
+    "author": "Norbert Takács",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["blur.js"],
+        "css": ["style.css"]
+    }]
+}

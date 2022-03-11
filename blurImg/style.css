@@ -1,0 +1,4 @@
+.blur-all-img {
+    filter: blur(8px)!important;
+    -webkit-filter: blur(8px)!important;
+}
